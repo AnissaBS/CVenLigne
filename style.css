@@ -1,0 +1,56 @@
+body{
+    background-image: url(mur.jpg);
+    background-size: 121%;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    margin: 50px;
+    color:white;
+    font-family: 'gill sans cursive';
+    font-size: 18px;
+}
+
+
+h1{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'gill sans cursive';
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+.video{
+    float: right;
+    margin-right: 20%;
+    margin-top: 0%;
+    padding: 10px;
+    border-radius: 25%;
+}
+
+
+.nom{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.dev{
+    text-decoration: underline 1px;
+}
+
+
+.presentation{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+.contact{
+    text-align: center;
+    margin-left: 600px;
+    width: 450px;
+}
