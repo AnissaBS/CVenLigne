@@ -30,6 +30,7 @@ h1{
 
 }
 
+/*P1 Présentation*/
 
 .video{
     float: right;
@@ -60,23 +61,42 @@ h1{
     margin-right: 2%;
 }
 
+/*P2 Compétences*/
 
 .competences{
     margin-left: 50px;
 }
 
 
+/*P5 Contact*/
+
 .contact{
-    display: inline-block;
-    text-align: center;
-    margin-left: 750px;
-    width: 450px;
+    display: inline;
+    text-align: center; 
+    display: inline;
 }
 
-/*.contactBlock{
+
+.reseaux{
     display: inline-block;
-    margin
-}*/
+    margin-left: 20%;
+}
+
+#reseau1{
+    width: 10%;
+}
+
+
+#reseau2{
+    width: 10%;
+}
+
+
+.formulaire{
+    width: 450px;
+    margin-left: 50%;
+}
+
 
 legend{
     font-size: 24px;
