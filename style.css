@@ -68,33 +68,46 @@ h1{
 }
 
 
+/*P4 Portfolio*/
+
+.site{
+    background:rgba(96, 95, 95, 0.386);
+    border-radius: 5%;
+    height: 200px;
+    width: 370px;
+    margin: 0px 0px 120px 60px ;
+    display: inline-block;
+}
+
+
+
 /*P5 Contact*/
 
 .contact{
-    display: inline;
-    text-align: center; 
-    display: inline;
-}
-
-
-.reseaux{
-    display: inline-block;
-    margin-left: 20%;
-}
-
-#reseau1{
-    width: 10%;
-}
-
-
-#reseau2{
-    width: 10%;
+    /*display: inline;*/
+    text-align: center;
 }
 
 
 .formulaire{
-    width: 450px;
-    margin-left: 50%;
+    width: 820px;
+    margin-left: 20%;
+}
+
+
+.reseaux{
+    /*display: inline-block;*/
+    margin-left: 20%;
+}
+
+
+#reseau1{
+    width: 5%;
+}
+
+
+#reseau2{
+    width: 5%;
 }
 
 
