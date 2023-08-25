@@ -9,7 +9,7 @@ body{
     background-size: 121%;
     background-repeat: no-repeat;
     border: 2px solid white;
-    margin: 50px;
+    margin: 50px 50px;
     color:white;
     font-family: 'gill sans cursive';
     font-size: 18px;
@@ -37,6 +37,10 @@ h1{
 
 span{
     text-decoration: underline;
+}
+
+a:hover{
+    box-shadow: 20px 20px 10px rgb(0, 0, 0);
 }
 
 
@@ -113,12 +117,8 @@ height: 100%;
     border-radius: 5%;
     height: 200px;
     width: 300px;
-    margin: 0px 0px 120px 40px ;
+    margin: 0px 0px 120px 50px ;
     display: inline-block;
-}
-
-a:hover{
-    box-shadow: 20px 20px 10px rgb(0, 0, 0);
 }
 
 
