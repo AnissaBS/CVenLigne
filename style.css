@@ -39,6 +39,12 @@ span{
     text-decoration: underline;
 }
 
+.fleche{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
+
 
 
 /*P1 Présentation*/
@@ -88,9 +94,9 @@ span{
 .jaugebureautique{
     width: 90%;
     font-weight: bold;
-    background-color: rgb(117, 128, 111);
+    background-color: rgb(75, 95, 64);
     text-align: right;
-    /* height: 30px; */
+    height: 25px;
     margin-bottom: 20px;
     padding-top: 1vh;
     padding-right: 1vh;
@@ -99,9 +105,9 @@ span{
 .jaugetechno{
     width: 70%;
     font-weight: bold;
-    background-color: rgb(99, 111, 92);
+    background-color: rgb(103, 120, 94);
     text-align: right;
-    /* height: 30px; */
+    height: 25px;
     margin-bottom: 20px;
     padding-top: 1vh;
     padding-right: 1vh;
@@ -111,9 +117,9 @@ span{
 .jaugehtml{
     width: 70%;
     font-weight: bold;
-    background-color: rgb(91, 101, 86);
+    background-color: rgb(153, 175, 142);
     text-align: right;
-    height: 30px;
+    height: 25px;
     margin-bottom: 20px;
     padding-top: 1vh;
     padding-right: 1vh;
@@ -123,9 +129,9 @@ span{
 .jaugecss{
     width: 60%;
     font-weight: bold;
-    background-color: rgb(81, 96, 74);
+    background-color: rgb(75, 95, 64);
     text-align: right;
-    height: 30px;
+    height: 25px;
     margin-bottom: 20px;
     padding-top: 1vh;
     padding-right: 1vh;
@@ -134,9 +140,9 @@ span{
 .jaugesyst{
     width: 65%;
     font-weight: bold;
-    background-color: rgb(69, 83, 62);
+    background-color: rgb(103, 120, 94);
     text-align: right;
-    height: 30px;
+    height: 25px;
     margin-bottom: 20px;
     padding-top: 1vh;
     padding-right: 1vh;
@@ -145,9 +151,9 @@ span{
 .jaugegestion{
     width: 70%;
     font-weight: bold;
-    background-color: rgb(58, 71, 53);
+    background-color: rgb(153, 175, 142);
     text-align: right;
-    height: 30px;
+    height: 25px;
     margin-bottom: 20px;
     padding-top: 1vh;
     padding-right: 1vh;
@@ -179,13 +185,13 @@ span{
 }
 
 .quand{
-    color: #53cf00;
+    color: #54ba00;
     font-size: 14px;
 }
 
 .ou{
     font-weight: bold;
-    color: #215200;
+    color: #265500;
 }
 
 .description {
@@ -272,60 +278,37 @@ fieldset{
 
 /* Pied de page */
 
-/* .contact{
-    margin-top: 200px;
-    padding-top: 40px;
-    align-items: center;
-    width: 100%;
-    border: solid white;
+.foot{
+    display: flex;
+    flex-direction: row;
 }
 
-
-.reseaux{
-    width: 25%;
-}
-
-.logo{
-    text-align: center;
-}
-
-
-footer {
-    background-color: #7171714a;
-    color: #fff;
-    text-align: center;
-    width: 100%;
-    height: 50%px;
-    /* padding: 0% 1px 1px 1px; */
 
 .contact{
-    /* text-align: center; */
     margin: 0px 0px 0px 100px;
     font-size: 17px;
-    padding-top: 40px;
-    /* align-items: center; */
-    width: 80%;
-    /* border: solid white; */
+    /* padding-top: 40px; */
+    width: 800px;
+    height: 100px;
+    border: 5px solid #215200;
+    /* display: flex;
+    justify-content: space-between; */
+    text-align: center;
 }
 
 
 .reseaux{
     width: 25%;
-    /* margin-left: 20px; */
 }
-
-/* .logo{
-    text-align: center;
-} */
 
 
 footer {
     background-color: #7171714a;
     color: #fff;
     width: 100%;
-    /* text-align: center; */
 }
 
-a:hover{
-    box-shadow: 20px 20px 10px rgb(0, 0, 0);
+a.reseaux:hover{
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
 }
